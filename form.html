@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/form.css">
+    <title>Duck-form</title>
+</head>
+<body>
+    <main class="screen">
+        <div class="box">
+            <div class="box--red">
+                <form class="form">
+                    <div class="form__field field--name">
+                        <label for="name" class="label">Full name</label>
+                        <input type="text" name="name" id="name" class="input-field" autofocus>   
+                    </div>
+                    <div class="form__field field--email">
+                        <label for="email" class="label">Email</label>
+                        <input type="email" name="email" id="email" class="input-field" placeholder="Your email" required>
+                    </div>
+                    <div class="form__field field--regarding">
+                        <label for="message-regarding" class="label">Message Regarding</label>
+                        <input type="text" name="message-regarding" id="message-regarding" class="input-field">
+                    </div>
+                    <div class="form__field field--message">
+                        <label for="message" class="label">Message</label>
+                        <input type="text" name="message" id="message" class="input-field" placeholder="Your Message" required>
+                    </div>
+                    <button type="submit" class="btn">Send message</button>
+                </form>
+            </div>
+            <div class="box--yellow"></div>
+        </div>
+        <img class="img" src="/images/hiclipart 2.png" alt="Duck">
+    </main>
+</body>
+</html>

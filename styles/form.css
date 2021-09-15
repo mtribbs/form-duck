@@ -1,0 +1,122 @@
+body {
+    max-width: 1440px;
+    width: 100%;
+}
+
+.box--yellow {
+    background-color: #FFB039;
+    max-width: 345px;
+    width: 100%;
+    min-height: 594px;
+}
+
+.box--red {
+    background-color: #BE0909;
+    max-width: 609px;
+    width: 100%;
+    height: 594px; /* when i put this one at min-height, or removed it 
+    (have min-height in .box below), the yellow box got shorter? */
+}
+
+.screen {
+    max-width: 1440px;
+    width: 100%;
+    min-height: 900px;
+    background-color: #9DBEBB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 954px;
+    width: 100%;
+    min-height: 594px;
+    box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.25);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    color: #feffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    padding: 40px;
+}
+
+.form__field {
+    display: flex;
+    flex-direction: column;
+    height: 72px;
+    margin: 15px;
+}
+
+.field--name {
+    max-width: 400px;
+    width: 100%;
+}
+
+.field--email {
+    max-width: 160px;
+    width: 100%;
+}
+
+.field--regarding {
+    max-width: 230px;
+    width: 100%;
+}
+
+.field--message {
+    max-width: 400px;
+    width: 100%;
+}
+
+.label {
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.input-field {
+    border:none;
+    border-bottom: 1px solid #fdffff;
+    background: none;
+    height: 50px;
+    letter-spacing: 0.3em;
+    color: #feffff;
+}
+
+::placeholder {
+    letter-spacing: 0.3em;
+    color: #feffff;
+}
+
+.btn {
+    width: 202px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: #468189;
+    border: none;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin: 50px;
+    align-self: center;
+}
+
+.img {
+    position: absolute;
+    transform: translate(200px, 50px);
+}
